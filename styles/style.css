@@ -3,7 +3,9 @@ body{
 	padding:0;
 	background-color:#DDDDDD;
 }
-
+ul li{
+	list-style: none;
+}
 .Navigation nav{
 	height:80px;
 	width:100%;
@@ -31,7 +33,6 @@ body{
 }
 .Navigation .nav-ul li{
 	display: block;
-	list-style: none;
 	float: left;
 	width:20%;
 	font-size: 25px;
@@ -49,3 +50,34 @@ body{
 .Navigation .selected .nav-link{
 	color: #FF0000;
 }
+.cd-hero-slider{
+	display:inline-block;
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+.cd-hero-slider li{
+	display: inline-block;
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+.cd-full-width{
+	display: inline-block;
+	margin:0;
+	padding: 0;
+	width: 100%;
+}
+div.grid-item{
+	display: inline-block;
+	float: left;
+	margin:0;
+	padding:0;
+	width:25%;
+}
+figure.effect-sadie {
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+
