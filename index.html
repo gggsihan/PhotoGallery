@@ -5,9 +5,31 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>YeeGallery</title>
-	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/popup.css">
 </head>
 <body>
+	<!--Popup-->
+	<div class="popup">
+		<div class="popupBg">
+			<button title="Previous(Left arrow key)" type="button" class="pop-arrow-left"><</button>
+			<button title="Next(Right arrow key)" type="button" class="pop-arrow-right">></button>
+		</div>
+		<div class="pop-content">
+			<div class="pop-figure">
+				<button title="close(Esc)" type="button" class="pop-close">x</button>
+				<figure >
+					<img src="" alt="Image" class="pop-img">
+					<figcaption>
+						<div class="pop-bottom-bar">
+							<div class="pop-counter"></div>
+						</div>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+
 	<!--Content-->
 	<div class="mainContent">
 		<!--Navigation-->
